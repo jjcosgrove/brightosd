@@ -2,6 +2,10 @@
 
 MacOS BezelUI client/server apps for displaying brightness OSD when using external monitors.
 
+## Demo
+
+[![Demo](https://j.gifs.com/DRKpMn.gif)](https://www.youtube.com/watch?v=_4sBzKckLJ8)
+
 ## Approach
 
 I created a simple client/server pair which communicates* using: [DistributedNotificationCenter](https://developer.apple.com/reference/foundation/distributednotificationcenter)
