@@ -1,6 +1,6 @@
 # BrightOSD
 
-MacOS BezelUI client/server apps for displaying brightness OSD when using external monitors.
+macOS BezelUI client/server apps for displaying brightness OSD when using external monitors.
 
 ## Demo
 
@@ -107,7 +107,7 @@ local tap = hs.eventtap.new({ hs.eventtap.event.types.keyDown }, function(event)
 end):start()
 ```
 
-You should then have a fairly decent brightness control for your external monitors on MacOS.
+You should then have a fairly decent brightness control for your external monitors on macOS.
 
 ## Notes
 
