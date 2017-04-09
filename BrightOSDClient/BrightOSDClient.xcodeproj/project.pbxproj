@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB61B1FC1E9A9037004F9930 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B1FB1E9A9037004F9930 /* Config.swift */; };
+		AB61B1FE1E9A9046004F9930 /* BrightOSDClientCommandLineNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B1FD1E9A9046004F9930 /* BrightOSDClientCommandLineNotifier.swift */; };
+		AB61B2021E9A9050004F9930 /* CommandLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B1FF1E9A9050004F9930 /* CommandLine.swift */; };
+		AB61B2031E9A9050004F9930 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B2001E9A9050004F9930 /* Option.swift */; };
+		AB61B2041E9A9050004F9930 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B2011E9A9050004F9930 /* StringExtensions.swift */; };
+		AB61B2061E9A9057004F9930 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61B2051E9A9057004F9930 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABCBD3C31E953A9400AC9DB0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB61B1FB1E9A9037004F9930 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = BrightOSDClient/Config.swift; sourceTree = SOURCE_ROOT; };
+		AB61B1FD1E9A9046004F9930 /* BrightOSDClientCommandLineNotifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrightOSDClientCommandLineNotifier.swift; path = BrightOSDClient/BrightOSDClientCommandLineNotifier.swift; sourceTree = SOURCE_ROOT; };
+		AB61B1FF1E9A9050004F9930 /* CommandLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandLine.swift; path = BrightOSDClient/CommandLine.swift; sourceTree = SOURCE_ROOT; };
+		AB61B2001E9A9050004F9930 /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Option.swift; path = BrightOSDClient/Option.swift; sourceTree = SOURCE_ROOT; };
+		AB61B2011E9A9050004F9930 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = BrightOSDClient/StringExtensions.swift; sourceTree = SOURCE_ROOT; };
+		AB61B2051E9A9057004F9930 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = BrightOSDClient/main.swift; sourceTree = SOURCE_ROOT; };
+		ABCBD3C51E953A9400AC9DB0 /* brightosdclient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = brightosdclient; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCBD3C21E953A9400AC9DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCBD3BC1E953A9400AC9DB0 = {
+			isa = PBXGroup;
+			children = (
+				ABCBD3C71E953A9400AC9DB0 /* BrightOSDClient */,
+				ABCBD3C61E953A9400AC9DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCBD3C61E953A9400AC9DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBD3C51E953A9400AC9DB0 /* brightosdclient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCBD3C71E953A9400AC9DB0 /* BrightOSDClient */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBD3DF1E95453700AC9DB0 /* Config */,
+				ABCBD3DE1E95452800AC9DB0 /* src */,
+				ABCBD3DB1E95415F00AC9DB0 /* vendor */,
+				AB61B2051E9A9057004F9930 /* main.swift */,
+			);
+			name = BrightOSDClient;
+			path = BrightOSClient;
+			sourceTree = "<group>";
+		};
+		ABCBD3DB1E95415F00AC9DB0 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AB61B1FF1E9A9050004F9930 /* CommandLine.swift */,
+				AB61B2001E9A9050004F9930 /* Option.swift */,
+				AB61B2011E9A9050004F9930 /* StringExtensions.swift */,
+			);
+			name = vendor;
+			sourceTree = "<group>";
+		};
+		ABCBD3DE1E95452800AC9DB0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				AB61B1FD1E9A9046004F9930 /* BrightOSDClientCommandLineNotifier.swift */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		ABCBD3DF1E95453700AC9DB0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AB61B1FB1E9A9037004F9930 /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCBD3C41E953A9400AC9DB0 /* brightosdclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCBD3CC1E953A9400AC9DB0 /* Build configuration list for PBXNativeTarget "brightosdclient" */;
+			buildPhases = (
+				ABCBD3C11E953A9400AC9DB0 /* Sources */,
+				ABCBD3C21E953A9400AC9DB0 /* Frameworks */,
+				ABCBD3C31E953A9400AC9DB0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brightosdclient;
+			productName = BrightOSClient;
+			productReference = ABCBD3C51E953A9400AC9DB0 /* brightosdclient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCBD3BD1E953A9400AC9DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan James Cosgrove";
+				TargetAttributes = {
+					ABCBD3C41E953A9400AC9DB0 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABCBD3C01E953A9400AC9DB0 /* Build configuration list for PBXProject "BrightOSDClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABCBD3BC1E953A9400AC9DB0;
+			productRefGroup = ABCBD3C61E953A9400AC9DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCBD3C41E953A9400AC9DB0 /* brightosdclient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCBD3C11E953A9400AC9DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB61B2031E9A9050004F9930 /* Option.swift in Sources */,
+				AB61B2021E9A9050004F9930 /* CommandLine.swift in Sources */,
+				AB61B2061E9A9057004F9930 /* main.swift in Sources */,
+				AB61B2041E9A9050004F9930 /* StringExtensions.swift in Sources */,
+				AB61B1FC1E9A9037004F9930 /* Config.swift in Sources */,
+				AB61B1FE1E9A9046004F9930 /* BrightOSDClientCommandLineNotifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABCBD3CA1E953A9400AC9DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCBD3CB1E953A9400AC9DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABCBD3CD1E953A9400AC9DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ABCBD3CE1E953A9400AC9DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCBD3C01E953A9400AC9DB0 /* Build configuration list for PBXProject "BrightOSDClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBD3CA1E953A9400AC9DB0 /* Debug */,
+				ABCBD3CB1E953A9400AC9DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCBD3CC1E953A9400AC9DB0 /* Build configuration list for PBXNativeTarget "brightosdclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBD3CD1E953A9400AC9DB0 /* Debug */,
+				ABCBD3CE1E953A9400AC9DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCBD3BD1E953A9400AC9DB0 /* Project object */;
+}
