@@ -59,7 +59,7 @@ etc...
 
 use something like the following to allow the existing F1/F2 (brightness) keys to execute required commands (note this is for dual AOC monitors):
 
-```
+```lua
 local minBrightOSDBrightness = 0
 local maxBrightOSDBrightness = 16
 local currentBrightOSDBrightness = maxBrightOSDBrightness
